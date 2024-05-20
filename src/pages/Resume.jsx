@@ -4,7 +4,7 @@ import Myskills from "../components/Myskills";
 
 const Resume = () => {
   return (
-    <div className="w-[90vw] md:w-[70vw] h-fit pb-10 mt-5 pt-7 flex flex-col items-center justify-center bg-[#1e1e1f] rounded-[20px] border-[0.5px] border-[#787676]">
+    <div className="w-[90vw] md:w-[70vw] h-fit pb-10 mt-5 pt-7 flex flex-col items-center justify-center bg-[#1e1e1f] rounded-[20px] border-[0.5px] border-[#444343]">
       {/* Heading */}
       <div className=" w-[90%] h-[90px] flex flex-col items-start justify-center mb-5">
         <p className=" text-3xl text-white font-extrabold z-10">Resume</p>

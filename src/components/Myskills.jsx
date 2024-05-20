@@ -2,7 +2,7 @@ import React from "react";
 
 const Myskills = () => {
   return (
-    <div className="box w-[100%] h-fit flex pt-8 pb-6 flex-col items-center justify-center bg-[#222224] border-[0.5px] rounded-[10px] border-[#434343]">
+    <div className="box w-[100%] h-fit flex pt-8 pb-6 flex-col items-center justify-center bg-[#222224] border-[0.5px] rounded-[15px] border-[#303030]">
       {/* Box 1 */}
 
       <div className="skill-box box1 w-[90%] h-[25px] mb-2 flex flex-row items-start justify-between px-3">

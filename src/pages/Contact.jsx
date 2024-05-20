@@ -3,7 +3,7 @@ import ContactDetails from "../components/ContactDetails";
 
 const Contact = () => {
   return (
-    <div className="w-[90vw] md:w-[70vw] h-fit mt-5 pt-7 flex flex-col items-center justify-between bg-[#1e1e1f] rounded-[20px] border-[0.5px] border-[#787676]">
+    <div className="w-[90vw] md:w-[70vw] h-fit mt-5 pt-7 flex flex-col items-center justify-between bg-[#1e1e1f] rounded-[20px] border-[0.5px] border-[#444343]">
       {/* Heading */}
       <div className=" w-[90%] h-[90px] flex flex-col items-start justify-center mb-5 text-white text-3xl font-extrabold">
         <p className=" text-3xl text-white font-extrabold">Contact</p>

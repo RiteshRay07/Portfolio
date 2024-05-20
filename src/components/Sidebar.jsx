@@ -12,7 +12,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 const Sidebar = () => {
   return (
-    <div className=" sticky top-14 w-[25vw] h-fit bg-[#1e1e1f] flex flex-col items-center justify-start mt-5 pt-[60px] border-[0.5px] border-[#787676] rounded-[20px]">
+    <div className=" sticky top-14 w-[25vw] h-fit bg-[#1e1e1f] flex flex-col items-center justify-start mt-5 pt-[60px] border-[0.5px] border-[#444343] rounded-[20px]">
       {/* Top div */}
       <div className=" w-[200px] h-[320px] flex flex-col items-center justify-between">
         {/* Self Avtar  */}
