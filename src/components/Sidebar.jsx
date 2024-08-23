@@ -30,11 +30,11 @@ const Sidebar = () => {
         {/* Name  */}
 
         <div>
-          <p className=" text-white font-extrabold text-3xl">RITESH RAY</p>
+          <p className=" text-white font-extrabold text-2xl">RITESH RAY</p>
         </div>
 
         {/* Title */}
-        <div className=" p-2 bg-[#3B3B3B] border-0 rounded-[15px]">
+        <div className=" p-2 bg-[#3B3B3B] border-0 rounded-[15px] text-white">
           <p>MERN Stack Developer</p>
         </div>
       </div>
@@ -91,7 +91,7 @@ const Sidebar = () => {
           {/* Label and values*/}
           <div className=" flex flex-col items-start justify-center">
             <p className=" text-[12px] text-[#bcbbbb]">BIRTHDAY</p>
-            <p className=" overflow-hidden w-[150px] text-[16px] font-semibold ml-[-13px]">
+            <p className=" overflow-hidden w-[150px] text-white text-[16px] font-semibold ml-[-13px]">
               March 28, 2002
             </p>
           </div>
@@ -106,7 +106,7 @@ const Sidebar = () => {
           {/* Label and values*/}
           <div className=" flex flex-col items-start justify-center">
             <p className=" text-[12px] text-[#bcbbbb]">LOCATION</p>
-            <p className=" overflow-hidden w-[150px] text-[16px] font-semibold ml-[-20px]">
+            <p className=" overflow-hidden w-[150px] text-white text-[16px] font-semibold ml-[-20px]">
               Kolkata, INDIA
             </p>
           </div>

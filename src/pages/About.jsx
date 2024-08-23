@@ -16,13 +16,13 @@ const About = () => {
       {/* ----------- */}
       {/* About descv */}
       <div className=" w-[90%] h-fit mt-6 mb-6">
-        <p className="flex items-start justify-center pl-0 text-start mb-4">
+        <p className="flex items-start justify-center text-white pl-0 text-start mb-4">
           I am a Budge Budge Institute of Technology student affiliated with
           Maulana Abul Kalam Azad University of Technology, Kolkata. I enjoy
           learning new stuff to add to my skills. I like to reach out to people
           with the same interests and hobbies.
         </p>
-        <p className="flex items-start justify-center pl-0 text-start">
+        <p className="flex items-start justify-center text-white pl-0 text-start">
           I am a positive, enthusiastic and competent Web Developer and UI/UX
           Designer who, over the years, has built up a diverse range of skills,
           qualities and attributes that guarantee I will perform highly in this
