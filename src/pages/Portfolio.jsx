@@ -29,7 +29,7 @@ const Portfolio = () => {
       imageUrl: project3Image,
       title: "Npm OTP Generator",
       description: "NPM Package",
-      projectUrl: "https://github.com/RiteshRay07",
+      projectUrl: "https://www.npmjs.com/package/otp-generator-by-length",
     },
     {
       id: 4,
