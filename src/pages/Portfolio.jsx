@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { IoEyeOutline } from "react-icons/io5";
 import project1Image from "../assets/studynotion.png";
-import project2Image from "../assets/codehelp.png";
-import project3Image from "../assets/weather.png";
-import project4Image from "../assets/razorpay.png";
-// import project5Image from "../assets/videocall.svg";
+import project2Image from "../assets/face.jpg";
+import project3Image from "../assets/npm.png";
+import project4Image from "../assets/codehelp.png";
+import project5Image from "../assets/weather.png";
+import project6Image from "../assets/razorpay.png";
 
 const Portfolio = () => {
   const projects = [
@@ -19,34 +20,34 @@ const Portfolio = () => {
     {
       id: 2,
       imageUrl: project2Image,
-      title: "CodeHelp",
-      description: "Web Development",
+      title: "Face Detection",
+      description: "Python",
       projectUrl: "https://github.com/RiteshRay07",
     },
     {
       id: 3,
       imageUrl: project3Image,
-      title: "Weather APP",
-      description: "Web Development",
+      title: "Npm OTP Generator",
+      description: "NPM Package",
       projectUrl: "https://github.com/RiteshRay07",
     },
     {
       id: 4,
       imageUrl: project4Image,
-      title: "Razorpay",
+      title: "Code Help",
       description: "Web Development",
       projectUrl: "https://github.com/RiteshRay07",
     },
     {
       id: 5,
-      imageUrl: project4Image,
-      title: "Razorpay",
+      imageUrl: project5Image,
+      title: "Weather APP",
       description: "Web Development",
       projectUrl: "https://github.com/RiteshRay07",
     },
     {
       id: 6,
-      imageUrl: project4Image,
+      imageUrl: project6Image,
       title: "Razorpay",
       description: "Web Development",
       projectUrl: "https://github.com/RiteshRay07",
