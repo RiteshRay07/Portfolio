@@ -63,24 +63,24 @@ const Portfolio = () => {
       </div>
 
       {/* projects div */}
-      <div className="w-[90%] mt-5 mb-5 flex flex-wrap items-center justify-around">
+      <div className="w-[90%] mt-5 mb-5 flex flex-wrap items-center justify-center gap-5">
         {/* Project Cards */}
         {projects.map((project) => (
           <Link
             key={project.id}
             to={project.projectUrl}
             target="_blank"
-            className="relative w-[30%] h-fit md:w-[28%] pb-14 mb-5 md:mb-0 md:mr-5"
+            className="relative w-full sm:w-[48%] md:w-[30%] h-fit pb-14"
           >
-            <div className="w-full h-[200px] relative">
+            <div className="w-full h-[200px] relative flex items-center justify-center">
               <img
                 src={project.imageUrl}
                 alt={project.title}
                 loading="lazy"
-                className="rounded-[10%] w-[100%] h-[200px] text-white transition-transform duration-300 transform-gpu hover:scale-105"
+                className=" rounded-[8.5%] md:rounded-[10%] w-[80%] md:w-[100%] h-[200px] text-white transition-transform duration-300 transform-gpu hover:scale-105"
               />
               {/* Eye icon container */}
-              <div className="absolute w-[100%] h-[100%] bg-[#b4b1b1a9] rounded-[10%] inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
+              <div className="absolute w-[80%] md:w-[100%] h-[100%] bg-[#b4b1b1a9] rounded-[10%] inset-0 flex items-center justify-center opacity-0 transition-opacity duration-300 hover:opacity-100">
                 {/* Eye icon */}
                 <IoEyeOutline className="text-[#e4fa3c] text-[40px] z-10" />
               </div>
